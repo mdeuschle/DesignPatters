@@ -12,6 +12,7 @@
 		A8BD7F3322F7B03D00888637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BD7F3222F7B03D00888637 /* Assets.xcassets */; };
 		A8BD7F3622F7B03D00888637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BD7F3422F7B03D00888637 /* LaunchScreen.storyboard */; };
 		A8BD7F4222F7B43500888637 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD7F4122F7B43500888637 /* RootVC.swift */; };
+		A8BD7F4622F7DAB700888637 /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD7F4522F7DAB700888637 /* LibraryAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A8BD7F3522F7B03D00888637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BD7F3722F7B03D00888637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8BD7F4122F7B43500888637 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		A8BD7F4522F7DAB700888637 /* LibraryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A8BD7F2A22F7B03B00888637 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				A8BD7F4422F7DA5700888637 /* API */,
 				A8BD7F3D22F7B16200888637 /* Support Files */,
 				A8BD7F4022F7B20100888637 /* Model */,
 				A8BD7F3E22F7B1E900888637 /* Controller */,
@@ -94,6 +97,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A8BD7F4422F7DA5700888637 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD7F4522F7DAB700888637 /* LibraryAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			files = (
 				A8BD7F4222F7B43500888637 /* RootVC.swift in Sources */,
 				A8BD7F2C22F7B03B00888637 /* AppDelegate.swift in Sources */,
+				A8BD7F4622F7DAB700888637 /* LibraryAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
